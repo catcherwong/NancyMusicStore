@@ -1,0 +1,63 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<List<NancyMusicStore.ViewModels.AlbumListViewModel>>
+@{
+    ViewBag.Title = "Index";    
+}                           
+
+
+@helper Truncate(string input, int length)
+{
+    if (input.Length <= length)
+    {
+            @input
+    }
+    else
+    {
+            @input.Substring(0, length)<text>...</text>
+    }
+}
+
+<h2>Index</h2>
+
+<p>
+    <a href="/storemanager/create">Create New</a>
+</p>
+<table>
+    <tr>
+        <th>
+            Genre
+        </th>
+        <th>
+            Artist
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Price
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.GenreName
+            </td>
+            <td>
+                @Truncate(item.ArtistName, 25)
+            </td>
+            <td>
+                @Truncate(item.Title, 25)
+            </td>
+            <td>
+                @item.Price
+            </td>
+            <td>
+                <a href="/storemanager/edit/@item.AlbumId">Edit</a> |
+                <a href="/storemanager/details/@item.AlbumId">Details</a> |                
+                <a href="/storemanager/delete/@item.AlbumId">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

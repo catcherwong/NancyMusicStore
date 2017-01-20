@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Catcher\Desktop\publish_nancymusicstore</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Dapper.dll">
+      <publishTime>07/22/2016 14:52:40</publishTime>
+    </File>
+    <File Include="bin/Nancy.Authentication.Forms.dll">
+      <publishTime>11/05/2015 14:40:50</publishTime>
+    </File>
+    <File Include="bin/Nancy.dll">
+      <publishTime>12/21/2015 11:59:12</publishTime>
+    </File>
+    <File Include="bin/Nancy.Hosting.Aspnet.dll">
+      <publishTime>11/05/2015 14:40:52</publishTime>
+    </File>
+    <File Include="bin/Nancy.ViewEngines.Razor.dll">
+      <publishTime>12/21/2015 11:59:16</publishTime>
+    </File>
+    <File Include="bin/NancyMusicStore.dll">
+      <publishTime>01/19/2017 21:40:36</publishTime>
+    </File>
+    <File Include="bin/Npgsql.dll">
+      <publishTime>11/20/2016 09:00:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="Content/Images/home-showcase.png">
+      <publishTime>01/08/2017 16:14:54</publishTime>
+    </File>
+    <File Include="Content/Images/logo.png">
+      <publishTime>01/08/2017 16:14:54</publishTime>
+    </File>
+    <File Include="Content/Images/placeholder.gif">
+      <publishTime>01/08/2017 16:14:54</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/14/2017 10:24:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/15/2017 10:22:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.5.1.min.js">
+      <publishTime>01/08/2017 16:15:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>01/08/2017 16:15:24</publishTime>
+    </File>
+    <File Include="Views/Account/LogOn.cshtml">
+      <publishTime>01/15/2017 11:55:11</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>01/15/2017 11:56:00</publishTime>
+    </File>
+    <File Include="Views/Checkout/AddressAndPayment.cshtml">
+      <publishTime>01/15/2017 11:54:35</publishTime>
+    </File>
+    <File Include="Views/Checkout/Complete.cshtml">
+      <publishTime>01/15/2017 09:54:08</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/15/2017 09:53:41</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>01/15/2017 09:52:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/19/2017 20:41:41</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/Index.cshtml">
+      <publishTime>01/19/2017 20:57:06</publishTime>
+    </File>
+    <File Include="Views/Store/Browse.cshtml">
+      <publishTime>01/15/2017 09:54:27</publishTime>
+    </File>
+    <File Include="Views/Store/Details.cshtml">
+      <publishTime>01/15/2017 09:54:33</publishTime>
+    </File>
+    <File Include="Views/Store/Index.cshtml">
+      <publishTime>01/15/2017 09:54:37</publishTime>
+    </File>
+    <File Include="Views/StoreManager/Create.cshtml">
+      <publishTime>01/15/2017 11:56:41</publishTime>
+    </File>
+    <File Include="Views/StoreManager/Delete.cshtml">
+      <publishTime>01/15/2017 09:54:48</publishTime>
+    </File>
+    <File Include="Views/StoreManager/Details.cshtml">
+      <publishTime>01/15/2017 09:54:54</publishTime>
+    </File>
+    <File Include="Views/StoreManager/Edit.cshtml">
+      <publishTime>01/15/2017 11:56:59</publishTime>
+    </File>
+    <File Include="Views/StoreManager/Index.cshtml">
+      <publishTime>01/15/2017 09:55:12</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/15/2017 09:53:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/19/2017 21:40:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

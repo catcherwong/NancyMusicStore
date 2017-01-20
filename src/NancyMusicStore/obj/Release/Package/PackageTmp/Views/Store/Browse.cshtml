@@ -1,0 +1,20 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<List<NancyMusicStore.ViewModels.AlbumListViewModel>>
+
+@{
+    ViewBag.Title = "Browse Albums";    
+}
+<div class="genre">
+    <h3><em>@ViewBag.Genre</em> Albums</h3>
+
+    <ul id="album-list">
+        @foreach (var album in Model)
+        {
+            <li>
+                <a href="/store/details/@album.AlbumId">
+                    <img alt="@album.Title" src="@album.AlbumArtUrl" />
+                    <span>@album.Title</span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
